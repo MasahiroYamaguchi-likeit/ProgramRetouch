@@ -1,0 +1,13 @@
+<web-app>
+	<welcome-file-list>
+	  <welcome-file>Index</welcome-file>
+	</welcome-file-list>
+	<error-page>
+    <error-code>405</error-code>
+    <location>/Error</location>
+  </error-page>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/Error</location>
+	</error-page>
+</web-app>
